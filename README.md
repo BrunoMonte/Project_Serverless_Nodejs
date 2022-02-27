@@ -38,10 +38,3 @@ $
 - npm install --save @types/aws-lambda
 
 -- Por ser uma integração da APIGateway com uma Lambda function, é instalada esse plugin.
-=======
-  
-  -.gitgnore
-   -.handler
-   -serverless.yml
-$
->>>>>>> 794f79a848e620972cc6b762cc916ce7fcb27434

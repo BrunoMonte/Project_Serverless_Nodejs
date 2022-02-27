@@ -15,5 +15,19 @@ functions:
           path: /
           method: get
 
+  create_adm:
+    handler: src/lambdas/CreateAdm.handler
+    events:
+      - httpApi:
+        path: /create/adm
+        method: post
+  
+  create_voluntary:
+    handler: src/lambdas/CreateVoluntary.handler
+    events:
+      - httpApi:
+        path: /create/voluntary
+        method: post
+
 plugins:
   - serverless-plugin-typescript
