@@ -3,7 +3,7 @@ $ Comando para iniciar com npm 'npm install serverless -g' $
 
 $ Para criação template serverless 'serverless  create --template "nomeDoSeuTemplate" --path "nomePasta" '
   - Arquivos criados:
-<<<<<<< HEAD
+
     - .gitgnore
     - .handler
     - serverless.yml
@@ -37,4 +37,8 @@ $
 
 - npm install --save @types/aws-lambda
 
+<<<<<<< HEAD
 -- Por ser uma integração da APIGateway com uma Lambda function, é instalada esse plugin.
+=======
+-- Por ser uma integração da APIGateway com uma Lambda function, é instalada esse plugin.
+>>>>>>> 93fe094d63ec0c25e9fea88b7a8cf259a059dc82
