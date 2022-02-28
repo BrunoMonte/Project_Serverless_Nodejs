@@ -20,14 +20,21 @@ functions:
     events:
       - httpApi:
         path: /create/adm
-        method: post
+        method: POST
   
   create_voluntary:
     handler: src/lambdas/CreateVoluntary.handler
     events:
       - httpApi:
         path: /create/voluntary
-        method: post
+        method: POST
+  
+  login_adm:
+    handler: src/lambdas/LoginAdm.handler
+    events:
+      - httpApi:
+        path: /login
+        method: POST
 
 plugins:
   - serverless-plugin-typescript
