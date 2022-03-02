@@ -1,3 +1,4 @@
+<img src="https://img.icons8.com/color/50/000000/amazon-web-services.png"/>
 # CONFIGURAÇÃO DE PROJETO COM SERVERLESS
 $ Comando para iniciar com npm 'npm install serverless -g' $
 
