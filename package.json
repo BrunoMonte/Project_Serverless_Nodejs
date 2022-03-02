@@ -4,6 +4,7 @@
   "description": "$ Comando para iniciar com npm 'npm install serverless -g' $",
   "main": "index.js",
   "dependencies": {
+    "@types/aws-lambda": "^8.10.93",
     "@types/bcrypt": "^5.0.0",
     "@types/uuid": "^8.3.4",
     "2-thenable": "^1.0.0",
