@@ -41,5 +41,3 @@ $
 - npm install --save @types/aws-lambda
 
 - Por ser uma integração da APIGateway com uma Lambda function, é instalada esse plugin.
-
-- Por ser uma integração da APIGateway com uma Lambda function, é instalada esse plugin.

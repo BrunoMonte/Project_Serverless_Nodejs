@@ -6,6 +6,7 @@
   "dependencies": {
     "@types/aws-lambda": "^8.10.93",
     "@types/bcrypt": "^5.0.0",
+    "@types/pdfkit": "^0.12.3",
     "@types/uuid": "^8.3.4",
     "2-thenable": "^1.0.0",
     "adm-zip": "^0.5.9",
