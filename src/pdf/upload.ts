@@ -13,15 +13,4 @@ const generatePdf = async (): Promise<Buffer> => {
     });
   });
 };
-const handler = async (event: any) => {
-  const stream = await generatePdf();
-  return {
-    statusCode: 200,
-    isBase64Encoded: true,
-    headers: {
-      "Content-type": "application/pdf"
-    },
-    body: stream.toString("base64")
-  };
-};
 
