@@ -1,6 +1,6 @@
-import { Md5 } from 'md5-typescript';
+//import  hashSync  from 'bcrypt';
 import { v4 as uuidv4 } from 'uuid';
-import { hashSync } from 'bcrypt';
+import { Md5 } from 'md5-typescript';
 
 
 class Adm {
@@ -25,7 +25,7 @@ class Adm {
 
         this.email = email;
         this.name = name;
-        this.password = hashSync(password);
+        //this.password = hashSync(password);
     }
 }
 

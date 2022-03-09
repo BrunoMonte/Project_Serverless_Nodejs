@@ -1,0 +1,1 @@
+import Adm from "../../entities/Adm";
